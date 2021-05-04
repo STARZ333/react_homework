@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import SingIn from './SignIn';
+
 import reportWebVitals from './reportWebVitals';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SingIn />
   </React.StrictMode>,
   document.getElementById('root')
 );
